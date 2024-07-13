@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e642d59-dae0-4e27-bd2e-bc3f47196742" name="更改" comment="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input/KeyBoardInputThread.py" beforeDir="false" afterPath="$PROJECT_DIR$/Input/KeyBoardInputThread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamControl/StreamControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/StreamControl/StreamControl.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2jEHrTxdTki2Laygr5j9pcyPSHy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="StreamPlayer" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1e642d59-dae0-4e27-bd2e-bc3f47196742" name="更改" comment="" />
+      <created>1720945515593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720945515593</updated>
+    </task>
+    <task id="LOCAL-00001" summary="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。">
+      <option name="closed" value="true" />
+      <created>1720947542452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720947542452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面">
+      <option name="closed" value="true" />
+      <created>1720947656517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720947656517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a 0.8.0" />
+    <MESSAGE value="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。" />
+    <MESSAGE value="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面" />
+  </component>
+</project>
