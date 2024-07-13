@@ -1,3 +1,4 @@
+from .RtspStreamPlayer import *
 from .GuiCore import *
 
-__all__ = ['Ui_PlayerMainWindow']
+__all__ = ['RtspStreamPlayer','Ui_PlayerMainWindow']
