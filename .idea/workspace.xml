@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e642d59-dae0-4e27-bd2e-bc3f47196742" name="更改" comment="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1e642d59-dae0-4e27-bd2e-bc3f47196742" name="更改" comment="beta-0.0.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Setup Script" />
         <option value="Python Script" />
       </list>
     </option>
@@ -22,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,15 +39,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/temp/StreamPlayer",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\temp\StreamPlayer\StreamPlayer" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="StreamPlayer" />
@@ -122,13 +129,43 @@
       <option name="project" value="LOCAL" />
       <updated>1720964637917</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面">
+      <option name="closed" value="true" />
+      <created>1720964997481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720964997481</updated>
+    </task>
+    <task id="LOCAL-00005" summary="beta-0.0.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能">
+      <option name="closed" value="true" />
+      <created>1720965227145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720965227145</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="a 0.8.0" />
     <MESSAGE value="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。" />
+    <MESSAGE value="Merge branch 'refs/heads/develop'&#10;&#10;# Conflicts:&#10;#&#9;.idea/vcs.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;GUI/GuiCore.py&#10;#&#9;GUI/__init__.py&#10;#&#9;gui_core.ui&#10;#&#9;main.py" />
     <MESSAGE value="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面" />
-    <option name="LAST_COMMIT_MESSAGE" value="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面" />
+    <MESSAGE value="beta-0.0.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta-0.0.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StreamPlayer/StreamControl.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
