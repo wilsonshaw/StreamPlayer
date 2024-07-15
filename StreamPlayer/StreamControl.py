@@ -62,12 +62,12 @@ class StreamControl(QMainWindow, Ui_StreamPlayer):
         self.keyboard_thread = KeyboardThread(self)
         self.keyboard_thread.finish_signal['bool', 'QString'].connect(self.on_keyboard_thread_finish_signal)
 
-        self.player = MediaPlayer()
+        self.player = MediaPlayer('--network-caching=0')
         self.player.set_hwnd(self.frameVideo.winId())
 
     @Slot()
     def on_pushButtonPlay_clicked(self):
-        self.player.set_mrl(self.lineEditRtspUrl.text(),'--network-catching=0')
+        self.player.set_mrl(self.lineEditRtspUrl.text())
         self.player.play()
         self.statusbar.showMessage('Play...', 3000)
         for x in range(0, 50):
