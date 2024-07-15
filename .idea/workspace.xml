@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e642d59-dae0-4e27-bd2e-bc3f47196742" name="更改" comment="beta-0.9.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能" />
+    <list default="true" id="1e642d59-dae0-4e27-bd2e-bc3f47196742" name="更改" comment="beta-0.9.2&#10;commit：&#10;- 使用PySide6重写界面&#10;- 在beta-0.9.2的基础上，添加了一些细节" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="release/beta-0.9.1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,7 +45,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "release/beta-0.9.2",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/temp/StreamPlayer",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
@@ -172,7 +172,8 @@
     <MESSAGE value="alpha-0.8.0&#10;commit：&#10;目前完成了基本功能的编写，具体如下：&#10;- 能够进行流媒体播放，在输入框中输入流媒体播放地址即可播放，音视频能够基本同步&#10;- 能够进行TCP收发包,计划有一个TCP调试的功能&#10;- 写了一个按键检测的功能。&#10;目前已知缺陷：&#10;- 流媒体播放固定分辨率为640x480，目前没有添加可调分辩率的功能&#10;- 程序调用的外置的开源播放器vlc，需要安装相关组件才可播放。&#10;- 按键检测功能只写了一个，具体转输协议后续更新。&#10;- 目前TCP调试功能不可用，只有一个设计好的UI界面" />
     <MESSAGE value="beta-0.0.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能" />
     <MESSAGE value="beta-0.9.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta-0.9.1&#10;commit：&#10;- 使用PySide6重写界面&#10;- 复现alpha-0.8.1的所有功能" />
+    <MESSAGE value="beta-0.9.2&#10;commit：&#10;- 使用PySide6重写界面&#10;- 在beta-0.9.2的基础上，添加了一些细节" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta-0.9.2&#10;commit：&#10;- 使用PySide6重写界面&#10;- 在beta-0.9.2的基础上，添加了一些细节" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

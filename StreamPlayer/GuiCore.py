@@ -92,6 +92,7 @@ class Ui_StreamPlayer(object):
         StreamPlayer.setWindowTitle(QCoreApplication.translate("StreamPlayer", u"StreamPlayer", None))
         self.actionTCP_Connect.setText(QCoreApplication.translate("StreamPlayer", u"TCP Connect", None))
         self.groupBoxStreamPlayer.setTitle(QCoreApplication.translate("StreamPlayer", u"StreamPlayer", None))
+        self.lineEditRtspUrl.setText(QCoreApplication.translate("StreamPlayer", u"rtsp://localhost:8554/mystream", None))
         self.pushButtonPlay.setText(QCoreApplication.translate("StreamPlayer", u"Play", None))
         self.pushButtonStop.setText(QCoreApplication.translate("StreamPlayer", u"Stop", None))
         self.groupBoxTCP.setTitle(QCoreApplication.translate("StreamPlayer", u"TCP", None))
