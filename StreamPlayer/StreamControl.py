@@ -37,11 +37,53 @@ class KeyboardThread(QThread):
                         self.finish_signal.emit(False, ' ')
             else:
                 try:
-                    key_tail = 0x0000807F
+                    key_head = 0xFFFF
+                    key_tail = 0x807F
                     key_mask = 0x00000000
                     if keyboard.is_pressed('w') or keyboard.is_pressed('W'):
                         key_mask |= 0x80000000 >> 0
-                    self.tcp_client.sendall(struct.pack('!I I', key_mask, key_tail))
+                    if keyboard.is_pressed('s') or keyboard.is_pressed('S'):
+                        key_mask |= 0x80000000 >> 1
+                    if keyboard.is_pressed('a') or keyboard.is_pressed('A'):
+                        key_mask |= 0x80000000 >> 2
+                    if keyboard.is_pressed('d') or keyboard.is_pressed('D'):
+                        key_mask |= 0x80000000 >> 3
+                    if keyboard.is_pressed('q') or keyboard.is_pressed('Q'):
+                        key_mask |= 0x80000000 >> 4
+                    if keyboard.is_pressed('e') or keyboard.is_pressed('E'):
+                        key_mask |= 0x80000000 >> 5
+                    if keyboard.is_pressed('z') or keyboard.is_pressed('Z'):
+                        key_mask |= 0x80000000 >> 6
+                    if keyboard.is_pressed('c') or keyboard.is_pressed('C'):
+                        key_mask |= 0x80000000 >> 7
+                    if keyboard.is_pressed('x') or keyboard.is_pressed('X'):
+                        key_mask |= 0x80000000 >> 8
+                    if keyboard.is_pressed('s') or keyboard.is_pressed('S'):
+                        key_mask |= 0x80000000 >> 9
+                    if keyboard.is_pressed('i') or keyboard.is_pressed('I'):
+                        key_mask |= 0x80000000 >> 10
+                    if keyboard.is_pressed('m') or keyboard.is_pressed('M'):
+                        key_mask |= 0x80000000 >> 11
+                    if keyboard.is_pressed('y') or keyboard.is_pressed('Y'):
+                        key_mask |= 0x80000000 >> 12
+                    if keyboard.is_pressed('h') or keyboard.is_pressed('H'):
+                        key_mask |= 0x80000000 >> 13
+                    if keyboard.is_pressed('u') or keyboard.is_pressed('U'):
+                        key_mask |= 0x80000000 >> 14
+                    if keyboard.is_pressed('o') or keyboard.is_pressed('O'):
+                        key_mask |= 0x80000000 >> 15
+                    if keyboard.is_pressed('p') or keyboard.is_pressed('P'):
+                        key_mask |= 0x80000000 >> 16
+                    if keyboard.is_pressed('l') or keyboard.is_pressed('L'):
+                        key_mask |= 0x80000000 >> 17
+                    if keyboard.is_pressed('g') or keyboard.is_pressed('G'):
+                        key_mask |= 0x80000000 >> 18
+                    if keyboard.is_pressed('b') or keyboard.is_pressed('B'):
+                        key_mask |= 0x80000000 >> 19
+                    if keyboard.is_pressed('r') or keyboard.is_pressed('R'):
+                        key_mask |= 0x80000000 >> 20
+                    self.tcp_client.sendall(struct.pack('!H I H', key_head, key_mask, key_tail))
+                    time.sleep(0.01)
                 except socket.error:
                     self.error_time = 0
                     self.isTcpConnected = False
