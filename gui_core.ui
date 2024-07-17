@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1280</width>
-    <height>841</height>
+    <width>880</width>
+    <height>620</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,191 +20,132 @@
    <enum>Qt::ToolButtonStyle::ToolButtonIconOnly</enum>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QGroupBox" name="groupBoxStreamPlayer">
+   <widget class="QWidget" name="widget" native="true">
     <property name="geometry">
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>1280</width>
-      <height>771</height>
+      <width>81</width>
+      <height>601</height>
      </rect>
     </property>
-    <property name="title">
-     <string>StreamPlayer</string>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(240, 240, 240);</string>
     </property>
-    <widget class="QFrame" name="frameVideo">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>50</y>
-       <width>1280</width>
-       <height>720</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 0, 0);</string>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::Shape::NoFrame</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Shadow::Raised</enum>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEditRtspUrl">
-     <property name="geometry">
-      <rect>
-       <x>190</x>
-       <y>20</y>
-       <width>1081</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>rtsp://185.232.92.37:8554/mystream</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButtonPlay">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
+    <widget class="QWidget" name="widget_2" native="true">
      <property name="geometry">
       <rect>
        <x>10</x>
-       <y>20</y>
-       <width>75</width>
-       <height>20</height>
+       <y>10</y>
+       <width>71</width>
+       <height>211</height>
       </rect>
      </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(227, 227, 227);</string>
-     </property>
-     <property name="text">
-      <string>Play</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButtonStop">
-     <property name="enabled">
-      <bool>false</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>100</x>
-       <y>20</y>
-       <width>75</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(227, 227, 227);</string>
-     </property>
-     <property name="text">
-      <string>Stop</string>
-     </property>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>71</width>
+        <height>211</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="sizeIncrement">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>ArrowCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="img/img.qrc">
+           <normaloff>:/img/radius.png</normaloff>
+           <activeon>:/img/radius.png</activeon>:/img/radius.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>50</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="shortcut">
+          <string>W</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="img/img.qrc">
+           <normaloff>:/img/connect.png</normaloff>:/img/connect.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>50</width>
+           <height>70</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="img/img.qrc">
+           <normaloff>:/img/menu.png</normaloff>:/img/menu.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>50</width>
+           <height>70</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </widget>
-   <widget class="QGroupBox" name="groupBoxTCP">
+   <widget class="QFrame" name="frameVideo">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>770</y>
-      <width>1280</width>
-      <height>51</height>
+      <x>80</x>
+      <y>0</y>
+      <width>800</width>
+      <height>600</height>
      </rect>
     </property>
-    <property name="title">
-     <string>TCP</string>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
     </property>
-    <widget class="QLineEdit" name="lineEditIP">
-     <property name="geometry">
-      <rect>
-       <x>630</x>
-       <y>20</y>
-       <width>480</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>cn-sz-yd-plustmp2.natfrp.cloud</string>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="lineEditPort">
-     <property name="geometry">
-      <rect>
-       <x>1150</x>
-       <y>20</y>
-       <width>120</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>31579</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="labelIP">
-     <property name="geometry">
-      <rect>
-       <x>610</x>
-       <y>20</y>
-       <width>20</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>IP:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="labePort">
-     <property name="geometry">
-      <rect>
-       <x>1120</x>
-       <y>20</y>
-       <width>30</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Port:</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButtonConnect">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>20</y>
-       <width>75</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(227, 227, 227);</string>
-     </property>
-     <property name="text">
-      <string>Connect</string>
-     </property>
-    </widget>
-    <widget class="QPushButton" name="pushButtonDisconnect">
-     <property name="enabled">
-      <bool>false</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>100</x>
-       <y>20</y>
-       <width>75</width>
-       <height>20</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgb(227, 227, 227);</string>
-     </property>
-     <property name="text">
-      <string>Disconnect</string>
-     </property>
-    </widget>
+    <property name="frameShape">
+     <enum>QFrame::Shape::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -214,6 +155,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="img/img.qrc"/>
+ </resources>
  <connections/>
 </ui>
